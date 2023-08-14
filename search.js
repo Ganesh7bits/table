@@ -5,6 +5,7 @@ function myFunction() {
     table = document.getElementById("myTable");
     tr = table.getElementsByTagName("tr"); 
     for (i = 0; i < tr.length; i++) {
+
       td = tr[i].getElementsByTagName("td")[1];
       
       if (td) {
@@ -16,5 +17,13 @@ function myFunction() {
           tr[i].style.display = "none";
         }
       }       
-    }
+   
+
   }
+}
+
+function cfun(){
+    var table;
+    table = document.getElementById("myTable");
+    table.style.display = "none";
+}
