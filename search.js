@@ -23,7 +23,9 @@ function myFunction() {
 }
 
 function cfun(){
-    var table;
+    var table,input;
+    input = document.getElementById("myInput");
+    input.value="";
     table = document.getElementById("myTable");
     table.style.display = "none";
 }
